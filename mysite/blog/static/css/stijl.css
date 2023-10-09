@@ -1,0 +1,25 @@
+body {
+    background-color: red;
+    color: black;
+    height: 100vh;
+    display: flex;
+}
+
+header, footer {
+    background-color: orange;
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    top: 0;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 1cm;
+}
+
+footer {
+    bottom: 0;
+    height: 10%;
+}
