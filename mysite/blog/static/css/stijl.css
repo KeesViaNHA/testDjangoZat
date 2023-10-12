@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: blue;
     color: black;
     height: 100vh;
     display: flex;
@@ -7,7 +7,7 @@ body {
     }
 
 header, footer {
-    background-color: orange;
+    background-color: green;
     position: fixed;
     width: 100%;
 }
