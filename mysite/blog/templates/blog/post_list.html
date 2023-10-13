@@ -14,6 +14,7 @@
     <header>
         <h1>Mijn website</h1>
     </header>
+    <div class="content-container">
     {% block content %}
     {% for post in posts %}
     <article class="post">
@@ -25,6 +26,7 @@
     </article>
     {% endfor %}
     {% endblock %}
+    </div>
     <footer>
 
     </footer>
